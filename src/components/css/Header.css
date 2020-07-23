@@ -1,0 +1,47 @@
+header {
+  color: #fff;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header span {
+  padding: 2px;
+}
+
+header span.red {
+  color: red;
+}
+
+header span.yellow {
+  color: yellow;
+}
+
+header span.green {
+  color: green;
+}
+
+header span.white {
+  color: white;
+}
+
+header span.orange {
+  color: orange;
+}
+
+header span.teal {
+  color: palevioletred;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  height: 100%;
+}
+
+.search-bar {
+  height: 50%;
+}
