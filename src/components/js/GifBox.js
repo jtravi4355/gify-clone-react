@@ -8,7 +8,7 @@ const GifBox = () => {
 
     useEffect(() => {
         const getGifs = async () => {
-            const res = await fetch(`http://api.giphy.com/v1/gifs/trending?limit=${searchLimit}&api_key=ZDuj4tNnrZX3zYnwoQD5yofmmmlU2oSW`);
+            const res = await fetch(`https://api.giphy.com/v1/gifs/trending?limit=${searchLimit}&api_key=ZDuj4tNnrZX3zYnwoQD5yofmmmlU2oSW`);
             const data = await res.json();
 
             setGifs(data.data);
